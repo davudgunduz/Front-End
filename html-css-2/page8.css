@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto:ital,wght@0,100;1,100&display=swap');
+.p1
+{
+    text-decoration: overline;
+}
+.p2
+{
+ text-decoration: underline;   
+}
+.p3
+{
+    text-decoration: line-through;
+}
+.p4
+{
+  text-transform: capitalize;
+}
+.p5
+{
+    text-transform: lowercase;
+}
+.p6
+{
+ text-transform: uppercase;   
+}
+.p7
+{
+  text-align: justify;
+}
+.p8
+{
+ text-indent: 2em;   
+}
+.p9
+{
+    line-height: 1.4em;
+    word-spacing: 0.3em;
+    letter-spacing: 0.3em;
+}
+.p10
+{
+    font-family: 'Mynerve', cursive;
+    line-height: 1.5em;
+}

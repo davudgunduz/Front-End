@@ -1,0 +1,17 @@
+body
+{
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color: rgb(88, 3, 112) ;
+    font-style: italic;
+}
+h1
+{
+    color: black;
+}
+h2
+{
+    color: rgba(220, 20, 137, 0.397);
+}

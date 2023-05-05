@@ -1,0 +1,30 @@
+p 
+{
+    font-size: 22px;
+    color: red;
+}
+body
+{
+    font-size: 28px;
+    color: purple;
+    line-height: 1.5;
+}
+.gray
+{
+    color: gray;
+}
+#yazitipi 
+{
+    font-style: italic;
+}
+.b
+{
+    text-transform: uppercase;
+    background-color: gold;
+    font-style: italic;
+}
+
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,10 @@
+body
+{
+    padding: 5% 25% 10% 25%;
+    font-size: 2rem;
+    color: purple   ;
+} 
+input
+{
+    font: inherit;
+}

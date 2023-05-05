@@ -1,0 +1,126 @@
+html
+{scroll-behavior: smooth;}
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 200vw;
+}
+nav
+{
+    border: 1px solid #03045e;
+    width: 100%;
+    height: 5%;
+    background-color: #03045e;
+    
+}
+ul
+{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-position: inside;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+}
+li
+{
+   
+    display: inline-block;
+    list-style: none;
+    
+
+}
+a
+{
+    color: #caf0f8;
+    padding-inline: 1.7rem;
+    text-decoration: none;  
+    padding-top: 1rem;
+}
+a:hover
+{
+    color: #90e0ef;
+}
+.outer-konteynir
+{
+    border: 3px dashed #333;
+    width: 75vw;
+    height: 85vw;
+    margin: 40px auto;
+    position: relative;
+}
+.inner-konteynir
+{
+    border: 3px dashed #03045e;
+    width: 40vw;
+    height: 50vw;
+    margin: 200px auto;
+}
+.box
+{
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 1rem;
+}
+
+.absolute
+{
+    background-color: #90e0ef;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.relative
+{
+    background-color: #03045e;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.fixed
+{
+    background-color: #457b9d;
+    position: fixed;
+    left: 0;
+
+}
+.sticky
+{
+    background-color: #006d77;
+    position: sticky;
+    top: 0;
+}
+.second
+{
+    color: #006d77;
+}
+.second:hover
+{
+    color: red;
+}
+section
+{
+    height: 100vw;
+}
+.blue{background-color: blue;}
+.red{background-color:red;}
+.green{background-color: #006d77;}
+header , footer ,h2
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+header
+{
+    position: sticky;
+    top: 0;
+}
+footer
+{
+    background-color: #caf0f8;
+    bottom: 0;
+    position: fixed;    
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+   
+}
+ul
+{
+    font-size: 1.5rem;
+    font-family: 'Rubik Iso', cursive;
+    text-decoration: none;
+    list-style-position: inside;
+    padding: 0.3rem;
+    text-align: right;
+    background-color: lightgrey;
+    margin: 0;
+    
+}
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-inline: 0.3rem;
+}
+a:hover
+{
+   color: crimson;
+}
+p
+{
+    
+    background-color: rgb(211, 211, 211);
+}
+main
+{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+.oppisite
+{
+    display: inline-block;
+    border-radius: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.742);
+    margin-top: 2rem;
+    padding: 4rem;
+    height: 400px;
+}

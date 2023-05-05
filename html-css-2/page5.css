@@ -1,0 +1,21 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    line-height: 1.5;
+    background-color: papayawhip;
+    color: rgba(0, 0, 139, 0.618);
+    font-style: italic;
+}
+.foot
+{
+    line-height: 2;
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

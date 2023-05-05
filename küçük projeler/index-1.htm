@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="aciklama">
+        <meta name="keywords" content="ahahtar kelimeler">
+        <meta name="author" content="davud gunduz">
+        <meta name="designer" content="davud gunduz">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0 ">
+        <meta http-equiv="refresh" content="10">
+        <title>background color</title>
+        <script>
+            function renkDegistir()
+        {
+            let dizi = ["#264653","#2a9d8f","#e9c46a","#f4a261","#e76f51","#e63946","#f1faee","#457b9d","#a8dadc","#1d3557"];
+            let renk = dizi[Math.floor(Math.random()*(dizi.length-1))];
+            document.body.style.background=renk;
+        }
+
+        </script>
+        
+       
+    </head>
+    <body>
+        <button onclick="renkDegistir()">renk</button>
+    </body>
+</html>

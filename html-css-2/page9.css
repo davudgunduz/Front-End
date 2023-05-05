@@ -1,0 +1,31 @@
+section
+{
+    margin: 5% 40% 5% 40%;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    line-height: 1.4em;
+    
+}
+
+a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+a:visited 
+{
+    color: dodgerblue;
+}
+a:hover ,a:focus
+{
+    color: crimson;
+    background-color: rgb(224, 231, 237);
+}
+a:active
+{
+    color: dodgerblue;
+}
+

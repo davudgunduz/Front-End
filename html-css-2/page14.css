@@ -1,0 +1,40 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav
+{
+   
+    border: 1px solid #2b2d42;
+    width: 100%;
+    height: 30px;
+    background-color: #2b2d42;
+    
+}
+ul
+{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-position: inside;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+}
+li 
+{
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-inline: 1.6rem;
+}
+a
+{
+    color: #edf2f4;
+    text-decoration: none;
+}
+a :hover, a:focus
+{
+    color: #ef233c;
+}
