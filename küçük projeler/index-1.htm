@@ -10,11 +10,11 @@
         <meta http-equiv="refresh" content="10">
         <title>background color</title>
         <script>
-            function renkDegistir()
+            function randomColor()
         {
-            let dizi = ["#264653","#2a9d8f","#e9c46a","#f4a261","#e76f51","#e63946","#f1faee","#457b9d","#a8dadc","#1d3557"];
-            let renk = dizi[Math.floor(Math.random()*(dizi.length-1))];
-            document.body.style.background=renk;
+            let array = ["#264653","#2a9d8f","#e9c46a","#f4a261","#e76f51","#e63946","#f1faee","#457b9d","#a8dadc","#1d3557"];
+            let color = array[Math.floor(Math.random()*(dizi.length-1))];
+            document.body.style.background=color;
         }
 
         </script>
@@ -22,6 +22,6 @@
        
     </head>
     <body>
-        <button onclick="renkDegistir()">renk</button>
+        <button onclick="randomColor()">color</button>
     </body>
 </html>
